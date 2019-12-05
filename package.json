@@ -1,0 +1,35 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "My webpack work project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxim-belyakov/webpack-template.git"
+  },
+  "keywords": [
+    "webpack",
+    "babel",
+    "eslint",
+    "js",
+    "css",
+    "stylus"
+  ],
+  "author": "https://github.com/maxim-belyakov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxim-belyakov/webpack-template/issues"
+  },
+  "homepage": "https://github.com/maxim-belyakov/webpack-template#readme",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
