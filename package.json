@@ -18,7 +18,8 @@
     "eslint",
     "js",
     "css",
-    "stylus"
+    "stylus",
+    "vue"
   ],
   "author": "https://github.com/maxim-belyakov",
   "license": "MIT",
