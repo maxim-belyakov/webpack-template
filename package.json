@@ -4,8 +4,8 @@
   "description": "My webpack work project",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --open --mode development",
-    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --open --mode development --config build/webpack.dev.conf.js",
+    "build": "webpack --mode production --config build/webpack.build.conf.js",
     "test": "test"
   },
   "repository": {
@@ -33,6 +33,7 @@
     "path": "^0.12.7",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.9.0"
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
   }
 }
