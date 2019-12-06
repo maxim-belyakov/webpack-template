@@ -1,13 +1,14 @@
 const merge = require('webpack-merge')
-const baseWebpackConfig = require('./webpack.base.conf') // вызов базого файла вебпака
+const baseWebpackConfig = require('./webpack.base.conf')
 
 const buildWebpackConfig = merge(baseWebpackConfig, {
-    // BUILD settings
-    // Source map
-    // devtool: 'eval-sourcemap'
-})
+  // BUILD SETTINGS
 
-// export buildWebpackConfig
+  // Source map
+  // devtool: 'eval-soucemap'
+});
+
 module.exports = new Promise((resolve, reject) => {
-    resolve(buildWebpackConfig)
+
+resolve(buildWebpackConfig)
 })

@@ -1,5 +1,3 @@
-import Sum from './some'
-let add = (a, b) => a + b;
+import './js/example'
 
-console.log('Sum()', Sum())
-console.log('add(1 + 2)', add(1, 2))
+import './stylus/main.styl'
