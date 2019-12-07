@@ -21,7 +21,7 @@
     "stylus",
     "vue"
   ],
-  "author": "https://github.com/maxim-belyakov",
+  "author": "Maxim Belyakov <maxim.a.belyakov@gmail.com> (https://belyakov.site)",
   "license": "MIT",
   "homepage": "https://github.com/maxim-belyakov/webpack-template",
   "devDependencies": {
