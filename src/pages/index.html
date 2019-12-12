@@ -4,36 +4,199 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Webpack Template</title>
+  </head>
+  <style>
+    /*! Typebase.less v0.1.0 | MIT License */
+    /* Setup */
+    html {
+      font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 137.5%;
+      -webkit-font-smoothing: antialiased;
+    }
+    /* Copy & Lists */
+    p {
+      line-height: 1.5rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0;
+    }
+    ul,
+    ol {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    ul li,
+    ol li {
+      line-height: 1.5rem;
+    }
+    ul ul,
+    ol ul,
+    ul ol,
+    ol ol {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    blockquote {
+      line-height: 1.5rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      position:relative;
+    }
+    blockquote::after {
+      content: '';
+      background-color: #222;
+      bottom: -24px;
+      height: 2px;
+      left: 0;
+      position: absolute;
+      width: 4%;
+      display: none;
+    }
+    /* Headings */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin-top: 1.5rem;
+      margin-bottom: 0;
+      line-height: 1.5rem;
+    }
+    h1 {
+      font-size: 3.7rem;
+      line-height: 4.5rem;
+      margin-top: 3rem;
+    }
+    h2 {
+      font-size: 2.828rem;
+      line-height: 3rem;
+      margin-top: 3rem;
+    }
+    h3 {
+      font-size: 1.414rem;
+    }
+    h4 {
+      font-size: 0.707rem;
+    }
+    h5 {
+      font-size: 0.4713333333333333rem;
+    }
+    h6 {
+      font-size: 0.3535rem;
+    }
+    /* Tables */
+    table {
+      margin-top: 1.5rem;
+      border-spacing: 0px;
+      border-collapse: collapse;
+    }
+    table td,
+    table th {
+      padding: 0;
+      line-height: 33px;
+    }
+    /* Code blocks */
+    code {
+      vertical-align: bottom;
+    }
+    /* Leading paragraph text */
+    .lead {
+      font-size: 1.6rem;
+      line-height: 1.3;
+    }
+    /* Hug the block above you */
+    .hug {
+      margin-top: 0;
+    }
+
+    .quote {
+      font-size: 21px;
+    }
+    main {
+      width: 590px;
+      margin: 0 auto;
+    }
+
+    blockquote {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    blockquote p:before {
+      content: '“';
+      font-size: 1.25em;
+      font-weight: bold;
+    }
+
+    blockquote p:after {
+      content: '”';
+      font-size: 1.25em;
+      font-weight: bold;
+    }
+
+    blockquote footer {
+      color: #888;
+    }
+
+    a {
+      color: #222;
+    }
+    a:hover,
+    a:focus {
+      color: #00baff;
+    }
+
+    @media only screen and (max-width: 812px) {
+      body {
+        margin: 16px;
+      }
+
+      main {
+        width: 100%;
+      }
+    }
+  </style>
+  <title>Belyakov website</title>
 </head>
 <body>
-
-  <!-- main wrapper -->
-  <div class="wrapper">
-    <!-- #app wrapper for vue -->
-    <div id="app">
-
-      <header></header>
-
-      <!-- only content wrapper -->
-      <div class="content-wrapper">
-
-        <!--  expamle section -->
-        <section id="promo" style="text-align:center;">
-          <div class="container">
-            <h1>Webpack Template</h1>
-          </div>
-        </section>
-
-        <!-- expamle vue component -->
-        <example-component/>
-
-      </div> <!-- end content wrapper -->
-
-    <footer></footer>
-
-    </div> <!-- end #app wrapper -->
-  </div> <!-- end main wrapper -->
+  <main>
+    <h1>Maxim Belyakov</h1>
+    <p class="lead">My passion is creating, and I find happiness in being a better me today than the me yesterday.</p>
+    <p class="quote">Life is 10% what happens to you and 90% how you react to it.</p>
+    <p>
+      🚀 👽 👾
+    </p>
+    <section>
+      <h1>Links</h1>
+      <ul>
+        <li>
+          <a href="https://linkedin.com/in/maxim-belyakov">LinkedIn</a>
+        </li>
+        <li>
+          <a href="mailto:maxim.a.belyakov@gmail.com?subject=Hey, Maxim!">E-mail</a>
+        </li>
+        <li>
+          <a href="https://medium.com/@maxim.a.belyakov">Medium</a>
+        </li>
+        <li>
+          <a href="https://instagram.com/maxim_chai">Instagram</a>
+        </li>
+        <li>
+          <a href="https://github.com/maxim-belyakov">GitHub</a>
+        </li>
+        <li>
+          <a href="hhttps://twitter.com/maxim_chai">Twitter</a>
+        </li>
+        <li>
+          <a href="https://facebook.com/maxim.a.belyakov">Facebook</a>
+        </li>
+      </ul>
+    </section>
+  </main>
 
 </body>
+
 </html>
